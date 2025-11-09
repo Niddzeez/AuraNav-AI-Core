@@ -1,0 +1,14 @@
+# Path to the main segmentation data folder
+path: F:/dataset/Final_Segmentation_Dataset/
+
+# Directories for training and validation images
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 2
+
+# Class names - MUST be in the order you created them in CVAT
+names:
+  - obstacle
+  - walkable

@@ -1,0 +1,29 @@
+# Set the path to the folder where your 'train' and 'val' directories are.
+# This should be the 'dataset' folder on your F: drive.
+path: F:/dataset/
+
+# Directories for training and validation images (relative to the 'path' above)
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 16
+
+# Class names - Copied exactly from your obj.names file
+names:
+  - door
+  - lift
+  - clothes
+  - dustbin
+  - 'cloth stand'  # Using quotes because of the space
+  - window
+  - shoes
+  - waterfilter
+  - bench
+  - person
+  - gate
+  - floor
+  - tree
+  - cycle
+  - path
+  - obstacle

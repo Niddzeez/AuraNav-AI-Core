@@ -1,0 +1,21 @@
+# Python Virtual Environments
+venv/
+converter_env/
+D:/converter_env/
+tf_env/
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Large Training Run Folders
+# This will ignore ALL your 'runs' folders (train, train2, train8, train9)
+runs/
+
+# Temporary Model Formats
+*.onnx
+temp_savedmodel/
+
+# OS & Editor Files
+.DS_Store
+.vscode/
